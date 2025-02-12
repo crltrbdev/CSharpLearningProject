@@ -1,4 +1,8 @@
-﻿//variables
+﻿//
+// Lesson #1: Print "Hello, World!" & Variables
+//
+
+// Variable Types
 
 // char - 'a'
 // string - "Hello, Kevin!"
@@ -7,14 +11,12 @@
 // double, decimal - 0.1
 // bool - true, false
 
-//
-// Lesson #1: Print "Hello, World!"
-//
+// Create a variable
 
 string myName = "Kevin Mulby ";
 string carlo = "Carlo";
 
-// calling the function
+// calling the HelloWorld function (SampleFunction)
 SampleFunction(carlo);
 
 // definition
