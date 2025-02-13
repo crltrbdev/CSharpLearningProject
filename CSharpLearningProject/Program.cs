@@ -2,6 +2,8 @@
 // Lesson #1: Print "Hello, World!" & Variables
 //
 
+// CAMBIO EJEMPLO
+
 // Variable Types
 
 // char - 'a'
@@ -75,6 +77,8 @@ int DivideTwoNumbers(int n1, int n2, int multiplier = 3)
 //
 // Lesson #3: Functions that take other parameter types
 //
+
+// IDE Overview -> Panelsa
 
 // int SayHiOrSayBye(bool sayHi, bool sayBye, string name, int byeCount)
 // {
