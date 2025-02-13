@@ -86,8 +86,129 @@ void EjemploVariosTipos(string stringParam, int intParam)
     Console.WriteLine("Hello " + stringParam + ". The Number is: " + intParam);
 }
 
+// una funcion void que reciba tres parametros
+// 1: string nombre1
+// 2: string nombre2
+// 3: int years
 
-// IDE Overview -> Panels
+/*
+ 
+ EjemploVariosTipos("Carlo", 10); <-- Mandar llamar, haz lo que esta definido adentro de tu scope
+ trestipos ( "Kevin" , "Iovanna", 23 );
+ */
+trestipos ( "Kevin" , "Iovanna", 23 );
+void trestipos(string nombre1, string nombre2, int years)
+{
+    // Console: nombre1 + " y " + nombre2 + " llevan " + years + " juntos"
+    Console.WriteLine(nombre1 + " y " + nombre2 + " llevan " + years + " juntos");
+    //  
+    // siguiente: Kevin y Iovanna llevan 24 juntos
+}
+
+int totalIntroduction = AddOrSubtract(10, 20, false);
+Console.WriteLine("Total Introduction: " + totalIntroduction);
+
+// MultiplyOrDivide
+
+int totalMultiplyorDivide = MultiplyOrDivide(50, 100, false);
+Console.WriteLine ("Total Multiplication is: " +totalMultiplyorDivide);
+int MultiplyOrDivide(int a, int b, bool isMultiply)
+{
+    int total = 0;
+    
+    // condition statements - flow control
+
+    if (isMultiply == true)
+    {
+        total = a * b;
+    }
+    else if (isMultiply == false)
+    {
+        total = a / b;
+    }
+    
+    return total;
+}
+
+/* TAREA 12 FEB -
+ * #1
+ * funcion que reciba 3 parametros
+ * string nombreA
+ * string nombreB
+ * bool imprimirPrimerNombre
+ *
+ * si imprimirPrimerNombre == true regresar nombreA, sino regresar nombreB
+ *
+ * #2
+ *
+ * int numero = 1 + 1;
+ *
+ * int number = 1 + 5;
+ * Console.WriteLine("Number is: " + number); // 6
+ *
+ * bool isTest = true && true; // isTest == true
+ *
+ * Boolean Arithmetic - Tarea - Leer sobre esto
+ *
+ * true && true = true
+ * false && false = false
+ * true || true = true
+ * false || false = false
+ * true && false = false
+ * true || false = true
+ * false && true = false
+ * false || true = true
+ *
+ * true == false = false
+ * true == true = true
+ * false == false = true
+ *
+ * !true = false
+ * !false = true
+ * 
+ * && (AND), || (OR), == (COMPARE), ! (NOT)
+ *
+ * bool isKevin = true;
+ * bool isLate = false;
+ *
+ * if(isKevin && !isLate)
+ * {
+ *      OpenDoor
+ * }
+ *
+ * if(!isKevin && isLate)
+ * {
+ *      Don't open door
+ * }
+ *
+ * if(!isKevin && !isNotLate)
+ * {
+ *  OpenDoor
+ * }
+ * 
+ * 
+ */
+
+
+
+int AddOrSubtract(int a, int b, bool isAddition)
+{
+    int total = 0;
+    
+    // condition statements - flow control
+
+    if (isAddition == true)
+    {
+        total = a + b;
+    }
+    else if (isAddition == false)
+    {
+        total = a - b;
+    }
+    
+    return total;
+}
+
 
 // int SayHiOrSayBye(bool sayHi, bool sayBye, string name, int byeCount)
 // {
@@ -95,11 +216,13 @@ void EjemploVariosTipos(string stringParam, int intParam)
 // }  
 
 //
-// Bonus Lesson: Unity Code-Along
+// Lesson #4: Conditions 
 //
 
+// IDE Overview -> Panels
+
 //
-// Lesson #4: Conditions 
+// Bonus Lesson: Unity Code-Along
 //
 
 //
